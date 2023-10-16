@@ -1,0 +1,20 @@
+{
+    "name": "a/a",
+    "description": "Composer",
+    "authors": [
+        {
+            "name": "Naumov Oleg"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AppPHP\\": "PHPPostgreSQL/",
+            "AppGP\\": "GOClickHouse/"
+        },
+        "files": [
+            "Helpers/helpers.php"
+        ]
+    }
+}
